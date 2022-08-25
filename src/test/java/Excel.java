@@ -16,7 +16,8 @@ public class Excel
           HSSFWorkbook book = new HSSFWorkbook(workbook);
           Sheet sheet= book.getSheet("Sheet1");
          Row row = sheet.getRow(2);
-         System.out.println( row.getCell(3));
+         System.out.println( row.getCell(6)  );
+
 
  
 
